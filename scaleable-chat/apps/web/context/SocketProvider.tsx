@@ -1,13 +1,21 @@
-'use client'
+// 'use client';
 
-import React from 'react'
+// import React from 'react';
 
-const SocketContext = React.createContext(null);
+// interface SocketProviderProps{
+// 	children?: React.ReactNode
+// }
 
-export const SocketContext: React.FC = () => {
-    return(
-        <SocketContext.Provider>
-            
-        </SocketContext.Provider>
-    )
-}
+// interface ISocketContext {
+// 	sendMessage: (msg: string) => any;
+// }
+
+// const SocketContext = React.createContext<ISocketContext | null>(null);
+
+// export const SocketProvider: React.FC<SocketProviderProps> = ({children}) => {
+
+// 	const sendMessage: ISocketContext['sendMessage'] = useCallback(msg)=>{(
+// 		console.log("send Message", msg);
+// 	), []}
+// 	return <SocketContext.Provider value={{sendMessage}}>{children}</SocketContext.Provider>;
+// };
